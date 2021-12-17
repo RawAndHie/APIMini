@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api2", "Api2\Api2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASM1", "ASM1\ASM1.csproj", "{F4BB918F-91A8-44A4-8180-B281F5914C71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "Chat\Chat.csproj", "{C1933A63-1A2F-4DCA-8C51-6C9E4893A98A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat", "Chat\Chat.csproj", "{C1933A63-1A2F-4DCA-8C51-6C9E4893A98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{B109500D-B190-4495-955C-844613A98954}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C1933A63-1A2F-4DCA-8C51-6C9E4893A98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1933A63-1A2F-4DCA-8C51-6C9E4893A98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1933A63-1A2F-4DCA-8C51-6C9E4893A98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B109500D-B190-4495-955C-844613A98954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B109500D-B190-4495-955C-844613A98954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B109500D-B190-4495-955C-844613A98954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B109500D-B190-4495-955C-844613A98954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
