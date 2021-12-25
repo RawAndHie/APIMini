@@ -3,6 +3,16 @@ using Microsoft.EntityFrameworkCore;
 using Auth.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var services = builder.Services;
+var configuration = builder.Configuration;
+
+services.AddAuthentication().AddGoogle(googleOptions =>
+{
+    var gconfig = configuration.GetSection("Authentication:Google");
+    googleOptions.ClientId = gconfig["ClientId"];
+    googleOptions.ClientSecret = gconfig["ClientSecret"];
+    googleOptions.CallbackPath = "/Identity/Account/Login/Google";
+});
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AuthContext>(options =>

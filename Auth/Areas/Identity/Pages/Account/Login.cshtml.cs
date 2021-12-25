@@ -19,6 +19,9 @@ namespace Auth.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
+
+        
+
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
 

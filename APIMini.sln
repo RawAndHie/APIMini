@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASM1", "ASM1\ASM1.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat", "Chat\Chat.csproj", "{C1933A63-1A2F-4DCA-8C51-6C9E4893A98A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{B109500D-B190-4495-955C-844613A98954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth", "Auth\Auth.csproj", "{B109500D-B190-4495-955C-844613A98954}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google", "Google\Google.csproj", "{AFD9CDD9-F4E7-4A16-842A-0BC8E5ABE448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASM", "ASM\ASM.csproj", "{0EB4C196-5279-4E9C-BEC0-CBFF674333D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B109500D-B190-4495-955C-844613A98954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B109500D-B190-4495-955C-844613A98954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B109500D-B190-4495-955C-844613A98954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD9CDD9-F4E7-4A16-842A-0BC8E5ABE448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD9CDD9-F4E7-4A16-842A-0BC8E5ABE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD9CDD9-F4E7-4A16-842A-0BC8E5ABE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD9CDD9-F4E7-4A16-842A-0BC8E5ABE448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB4C196-5279-4E9C-BEC0-CBFF674333D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB4C196-5279-4E9C-BEC0-CBFF674333D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB4C196-5279-4E9C-BEC0-CBFF674333D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB4C196-5279-4E9C-BEC0-CBFF674333D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
