@@ -8,10 +8,11 @@ var configuration = builder.Configuration;
 
 services.AddAuthentication().AddGoogle(googleOptions =>
 {
+    //IConfigurationSection googleAuthNSection = configuration.GetSection("Authentication:Google");
     var gconfig = configuration.GetSection("Authentication:Google");
     googleOptions.ClientId = gconfig["ClientId"];
     googleOptions.ClientSecret = gconfig["ClientSecret"];
-    googleOptions.CallbackPath = "/Identity/Account/Login/Google";
+    googleOptions.CallbackPath = "/login-Google";
 });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
