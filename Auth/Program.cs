@@ -12,7 +12,7 @@ services.AddAuthentication().AddGoogle(googleOptions =>
     var gconfig = configuration.GetSection("Authentication:Google");
     googleOptions.ClientId = gconfig["ClientId"];
     googleOptions.ClientSecret = gconfig["ClientSecret"];
-    googleOptions.CallbackPath = "/login-Google";
+    googleOptions.CallbackPath = "/Identity/Account/Login/Google";
 });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
